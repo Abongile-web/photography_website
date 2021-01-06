@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAWA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,yBAAyB;CACzC",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "_colorPalette.scss"
     ],
     "names": [],
     "file": "style.css"

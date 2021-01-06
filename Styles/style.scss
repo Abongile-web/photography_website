@@ -1,0 +1,16 @@
+@import "./colorPalette";
+
+@mixin flexCenter($direction, $background) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction;
+    background-color: $background;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+//header section
