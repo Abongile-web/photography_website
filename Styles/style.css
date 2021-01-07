@@ -72,6 +72,15 @@ body {
   padding: 2px;
 }
 
+.row #text {
+  font-size: 15px;
+}
+
+.row #text p {
+  height: 100%;
+  padding-top: 10%;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,5 +107,9 @@ body {
 .footer a {
   color: #1c1c1c;
   font-size: 20px;
+}
+
+.footer a:hover {
+  color: #213744;
 }
 /*# sourceMappingURL=style.css.map */

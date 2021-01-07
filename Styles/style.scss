@@ -61,7 +61,17 @@ body {
     .col-12 {
         padding: 2px;
     }
+    //About section styling 
+    #text {
+        font-size: 15px;
+        p {
+            height: 100%;
+            padding-top: 10%;
+        }
+    }
 }
+
+
 
 .footer {
     @include flexCenter(column, $grey);
@@ -72,5 +82,8 @@ body {
     a {
         color: $black;
         font-size: 20px;
+        &:hover {
+            color: $blue;
+        }
     }
 }
