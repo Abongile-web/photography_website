@@ -19,25 +19,30 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #e6e6e6;
   color: #213744;
+  height: 15vh;
 }
 
-.header h1 {
+.header a {
+  text-decoration: none;
+}
+
+.header a h1 {
   font-size: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
   margin-top: 5px;
+  color: #1c1c1c;
 }
 
-.header h1 span {
+.header a h1 span {
   font-size: 8px;
   font-weight: 500;
 }
@@ -93,7 +98,6 @@ label, input, textarea {
 }
 
 .contact {
-  background-color: none;
   text-align: center;
   padding: 50px;
 }
@@ -116,6 +120,7 @@ label, input, textarea {
 
 .submit:hover {
   background-color: #b68a87;
+  color: white;
 }
 
 #backToTop {
@@ -148,13 +153,13 @@ label, input, textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #e6e6e6;
   margin-top: 10px;
+  padding: 15px;
 }
 
 .footer p {
