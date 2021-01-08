@@ -85,6 +85,39 @@ body {
   width: 100%;
 }
 
+label, input, textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #b68a87;
+}
+
+.contact {
+  background-color: none;
+  text-align: center;
+  padding: 50px;
+}
+
+.contact h1 {
+  color: #213744;
+}
+
+.contact input, .contact textarea {
+  border: 2px solid #d4c6bd;
+}
+
+.submit {
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 12px;
+  color: #213744;
+  background-color: #d4c6bd;
+}
+
+.submit:hover {
+  background-color: #b68a87;
+}
+
 #backToTop {
   display: none;
   position: fixed;
