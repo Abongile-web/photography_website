@@ -53,3 +53,10 @@ $(document).ready(function () {
         }
     })
 })
+
+//menu button
+function menu() {
+  var navigation = $('.nav-links')
+
+  document.querySelector('.nav-links').style.transform = "translateY(0%)"
+}

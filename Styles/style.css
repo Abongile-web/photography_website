@@ -85,7 +85,9 @@ body {
 .menu button {
   color: #b68a87;
   border: 0;
-  font-size: 15px;
+  font-size: 20px;
+  background-color: #e6e6e6;
+  outline: none;
 }
 
 .row {
@@ -198,5 +200,44 @@ label, input, textarea {
 
 .footer a:hover {
   color: #213744;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+  .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #e6e6e6;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    font-size: 20px;
+    left: 0%;
+    z-index: 1;
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+  }
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=style.css.map */
