@@ -9,13 +9,19 @@
 }
 
 * {
+    margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
+}
+
+/*make a smooth scroll for document*/
+html {
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Playfair Display', serif;
+    overflow-x: hidden
 }
 
 //header section
@@ -52,9 +58,22 @@ body {
                         color: $blue;
                     }
                 }
+                a.active {
+                    color: $blue;
+                }
                 
             }
         }
+    }
+}
+
+//
+.menu {
+    display: none;
+    button{
+        color: $darkPink;
+        border: 0;
+        font-size: 15px;
     }
 }
 
@@ -105,10 +124,16 @@ label, input, textarea {
     font-size: 12px;
     color: $blue;
     background-color: $fadedPink;
+    border: 0;
     &:hover {
         background-color: $darkPink;
         color: white;
     }
+}
+
+// invalid message color
+.status {
+    color: red;
 }
 
 //Back to top button
@@ -147,4 +172,8 @@ label, input, textarea {
             color: $blue;
         }
     }
+}
+
+@media screen and (max-width: 768px){
+    
 }
