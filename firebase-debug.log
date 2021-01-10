@@ -1,0 +1,13 @@
+[debug] [2021-01-10T07:19:25.530Z] ----------------------------------------------------------------------
+[debug] [2021-01-10T07:19:25.535Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\abong\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-01-10T07:19:25.536Z] CLI Version:   9.1.2
+[debug] [2021-01-10T07:19:25.536Z] Platform:      win32
+[debug] [2021-01-10T07:19:25.536Z] Node Version:  v14.15.4
+[debug] [2021-01-10T07:19:25.539Z] Time:          Sun Jan 10 2021 09:19:25 GMT+0200 (South Africa Standard Time)
+[debug] [2021-01-10T07:19:25.539Z] ----------------------------------------------------------------------
+[debug] [2021-01-10T07:19:25.539Z] 
+[debug] [2021-01-10T07:19:25.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-10T07:19:25.553Z] > authorizing via signed-in user
+[debug] [2021-01-10T07:19:25.554Z] [iam] checking project kapturedbyviibez for permissions ["firebase.projects.get"]
+[debug] [2021-01-10T07:19:25.559Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/kapturedbyviibez:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
