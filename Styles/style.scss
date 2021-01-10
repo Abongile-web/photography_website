@@ -28,7 +28,7 @@ body {
 .header {
     @include flexCenter(column,$grey);
     color: $blue;
-    height: 15vh;
+    padding: 10px;
     a {
         text-decoration: none;
         h1 {
@@ -91,12 +91,16 @@ body {
         font-size: 15px;
         p {
             height: 100%;
-            padding-top: 10%;
+            padding-top: 10px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
     #aboutImage {
         img {
-            width: 100%;
+            //width: 100%;
+            padding-top: 10px;
         }
     }
 }
@@ -199,5 +203,16 @@ label, input, textarea {
 
     .menu {
         display: flex;
+        button:hover {
+            color: $blue;
+        }
     }
+
+    /*.contact {
+        height: 70vh;
+    }
+
+    .footer {
+        height: 15vh;
+    }*/
 }
