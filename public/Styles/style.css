@@ -8,6 +8,7 @@
 /*make a smooth scroll for document*/
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -29,7 +30,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #e6e6e6;
+  background-color: #f3f3f3;
   color: #213744;
   padding: 10px;
 }
@@ -86,7 +87,7 @@ body {
   color: #b68a87;
   border: 0;
   font-size: 20px;
-  background-color: #e6e6e6;
+  background-color: #f3f3f3;
   outline: none;
 }
 
@@ -149,6 +150,17 @@ label, input, textarea {
   color: white;
 }
 
+#map {
+  width: 100%;
+  text-align: center;
+}
+
+#map iframe {
+  padding: 20px;
+  width: 50%;
+  height: 500px;
+}
+
 .status {
   color: red;
 }
@@ -187,7 +199,7 @@ label, input, textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #e6e6e6;
+  background-color: #f3f3f3;
   margin-top: 10px;
   padding: 15px;
 }
@@ -206,9 +218,6 @@ label, input, textarea {
 }
 
 @media screen and (max-width: 768px) {
-  img {
-    width: 100%;
-  }
   .nav-links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -223,10 +232,10 @@ label, input, textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background-color: #e6e6e6;
+    background-color: #f3f3f3;
     position: absolute;
     width: 100%;
-    height: 40%;
+    height: 100%;
     font-size: 20px;
     left: 0%;
     z-index: 1;
@@ -249,12 +258,8 @@ label, input, textarea {
   .menu button:hover {
     color: #213744;
   }
-  /*.contact {
-        height: 70vh;
-    }
-
-    .footer {
-        height: 15vh;
-    }*/
+  #map iframe {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
