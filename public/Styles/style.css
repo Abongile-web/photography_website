@@ -258,6 +258,9 @@ label, input, textarea {
   .menu button:hover {
     color: #213744;
   }
+  #aboutImage img {
+    width: 100%;
+  }
   #map iframe {
     width: 100%;
   }
