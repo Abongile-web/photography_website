@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   overflow-x: hidden;
 }
 
@@ -98,6 +98,20 @@ body {
 
 .row .col-12 {
   padding: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row .col-12 img {
+  width: 30%;
 }
 
 .row #text {
@@ -116,7 +130,9 @@ body {
   padding-top: 10px;
 }
 
-label, input, textarea {
+label,
+input,
+textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -132,7 +148,8 @@ label, input, textarea {
   color: #213744;
 }
 
-.contact input, .contact textarea {
+.contact input,
+.contact textarea {
   border: 2px solid #d4c6bd;
 }
 
@@ -245,6 +262,9 @@ label, input, textarea {
     transition: -webkit-transform 0.8s ease-in-out;
     transition: transform 0.8s ease-in-out;
     transition: transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
+  }
+  .row .col-12 img {
+    width: 100%;
   }
   .nav-links.show {
     -webkit-transform: translateY(0%);
